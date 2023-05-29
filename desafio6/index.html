@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afiliación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos-urban.css" />
+  </head>
+  <body>
+
+    <h1>Vení al Gym!💪</h1>
+
+    <fieldset>
+      <legend>🙋‍♂️Datos Personales👀</legend>
+      <form>
+        <p>Nombre:*</p>
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" required /><br />
+
+        <p>Apellido:*</p>
+        <label for="apellido"></label>
+        <input type="text" id="apellido" name="apellido" required /><br />
+        <p>Documento:*</p>
+        <label for="documento"></label>
+        <input type="text" id="documento" name="documento" required /><br />
+
+        <p>Nacionalidad:*</p>
+        <label for="pais"></label>
+        <select id="pais" name="pais">
+          <option disabled selected value="">- Seleccionar -</option>
+          <option value="argentina">Argentina</option>
+          <option value="brasileña">Brasileña</option>
+          <option value="uruguaya">Uruguaya</option>
+          <option value="otra">Otra</option>
+        </select>
+
+        <div>
+          <p>Contanos un poco de vos...:*</p>
+          <label for="about-me"></label>
+          <textarea id="about-me" name="about-me" rows="4" cols="35"></textarea>
+        </div>
+        <p>Sexo:*</p>
+        <input type="radio" id="Femenino" name="Genero" value="F" />
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Masculino" name="Genero" value="M" />
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="otro" name="Genero" value="O" />
+        <label for="otro">Otro</label>
+      </form>
+    </fieldset>
+    <!--Datos De Contacto-->
+    <hr>
+      <fieldset>
+        <legend>📱Datos De Contacto📧</legend>
+        <form>
+        <p>Teléfono:</p>
+        <label for="numero"></label>
+        <input
+          type="tel"
+          id="numero"
+          name="numero"
+          required
+          placeholder="Código de área y número"
+        /><br />
+        <p>Direccion de correo electronico:*</p>
+        <label for="nombre"></label>
+        <input type="email" id="email" name="email" placeholder="Ej: mail@gmail.com" required/><br />
+      </form>
+      </fieldset>
+    <hr>
+    <fieldset>
+      <legend>🚴Actividades🤸‍♂️</legend>
+      <form id="act">
+        <p>Por favor indicá cuáles actividades te interesan</p>
+        <p>Sede Palermo</p>
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          <label for="vehicle1">Básquet</label>
+        </div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+          <label for="vehicle2">Boxeo</label>
+        </div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+          <label for="vehicle3">Fútbol</label>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle4" name="vehicle4" value="Tennis" />
+          <label for="vehicle4">Tenis</label>
+        </div>
+        <p>Sede Rosario</p>
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle5" name="vehicle5" value="Bike" />
+          <label for="vehicle5">Básquet</label>
+        </div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle6" name="vehicle6" value="Car" />
+          <label for="vehicle6">Boxeo</label>
+        </div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="vehicle7" name="vehicle7" value="Boat" />
+          <label for="vehicle7">Fútbol</label>
+        </div>
+        <div class="checkbox-container">
+          <input
+            type="checkbox"
+            id="vehicle8"
+            name="vehicle8"
+            value="Volleyball"
+          />
+          <label for="vehicle8">Voley</label>
+        </div>
+      </form>
+    </fieldset>
+      <fieldset class="cn">
+        <input type="checkbox" id="condiciones" name="condiciones" value=""/>
+        <label for="condiciones">Acepto las condiciones*</label></fieldset>
+        <fieldset class="cn">
+        <input type="checkbox" id="novedades" name="novedades" value="" />
+        <label for="novedades">Deseo recibir novedades*</label>
+        <p style="color: white">*:campo obligatorio</p></fieldset>
+
+      <!--
+      <div class="section-container">
+        <input
+          type="button"
+          id="start-affiliation"
+          name="start-affiliation"
+          value="Iniciar afiliación"
+        />
+        <input type="button" id="reset" name="reset" value="Reestablecer" />
+      </div>
+      -->
+    
+    <button>Iniciar Afiliación</button>
+    <button>Reestablecer</button>
+  </body>
+</html>

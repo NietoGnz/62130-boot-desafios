@@ -1,0 +1,128 @@
+body {
+    background-color: #1f2023;
+    text-align: center;
+    max-width: 500px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/images/urban.jpg);
+    background-repeat: round;
+    color: black;
+  
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    border-top: 10px solid #f48b20;
+    border-bottom: 10px solid #f48b20;
+    border-left: 10px solid #ff9a92;
+    border-right: 10px solid #ff9a92;
+    padding: 1px;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  
+  legend {
+    padding-bottom: 0px;
+  }
+  
+  form {
+    text-align: center;
+    margin: 0px;
+    
+  }
+  .checkbox-container {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  fieldset {
+    border: 1px transparent;
+    padding: 0px 0px 20px 0px;
+    text-align: start;
+    background-color: #ffbe8c;
+  }
+  
+  legend {
+    display: inline-block;
+    border: 1px solid #f48b20;
+    padding: 5px 10px;
+    background-color: #f48b20;
+    border-radius: 5px;
+  }
+  .condiciones {
+    color: white;
+  }
+  button {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffbe8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color:#ffbe8c;
+  }
+  label[for="condiciones"],
+  label[for="novedades"] {
+    color: white;
+  }
+  input:hover {
+    background-color: #f48b20;
+  }
+  
+  #nombre {
+    width: 75%;
+    max-width: 300px;
+  }
+  #apellido {
+    width: 75%;
+    max-width: 300px;
+  }
+  #documento {
+    width: 75%;
+    max-width: 300px;
+  }
+  
+  select {
+    width: 75%;
+    max-width: 300px;
+  }
+  
+  #act {
+    text-align: left;
+    padding: 5px;
+  }
+  
+  #numero {
+      width: 75%;
+    max-width: 300px;
+  }
+  
+  #email {
+    width: 75%;
+    max-width: 300px;
+  }
+  hr {
+    color: #f48b20;
+    width: 200px;
+    border-style: dotted none none;
+    border-width: 10px;
+  }
+  
+  .cn {
+    padding: 5px;
+    background-color: transparent;
+    border: 0px transparent;
+  }
+  
